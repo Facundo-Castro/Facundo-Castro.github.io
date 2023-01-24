@@ -1,4 +1,15 @@
 
 header {
+
     text-align: center ;
+    font-size: x-large ;
+}
+
+#foto{
+    margin: solid red 200px 200px 200px 200px;
+
+}
+
+.titulos {
+    font-family: "font-family: 'Emblema One'";
 }
