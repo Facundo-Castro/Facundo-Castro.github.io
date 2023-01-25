@@ -7,6 +7,9 @@ header {
 
 #foto{
     margin: solid red 200px 200px 200px 200px;
+    position: fixed;
+    top: 0;
+    left: 0
 
 }
 
@@ -17,3 +20,15 @@ header {
 #info-JP{
     align-items: center;
 }
+
+ul{
+    list-style: none;
+}
+
+#formación{
+    background-color: aqua;
+}
+#experiencia{
+    background-color: #e0e0d1;
+}
+
