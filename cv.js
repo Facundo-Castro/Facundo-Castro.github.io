@@ -1,9 +1,4 @@
-
-#boton-contacto{
-
-    onclick=document.getElementById(contacto).removeAttribute(hidden)
+document.getElementById('boton').onclick = function (){
+    console.log("el js funciona")
+    document.getElementById('contacto').removeAttribute('hidden')
 }
-
-
-
-   

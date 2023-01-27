@@ -1,16 +1,27 @@
 
-header {
+* {
+    box-sizing: border-box;
+  }
 
-    text-align: center ;
-    font-size: x-large ;
+#encabezado-general{
+    font-size: xx-large; 
+    font-weight: bold;
+    text-align: center;
 }
 
-#foto{
-    margin: solid red 200px 200px 200px 200px;
-    position: fixed;
-    top: 0;
-    left: 0
+ .menu-izq {
+    width: 25%;
+    float: left;
+  }
+  .principal {
+    width: 75%;
+    float: left;
+  }
 
+
+#foto{
+    border:5px solid red;
+  
 }
 
 .titulos {
