@@ -3,33 +3,9 @@
     box-sizing: border-box;
   }
 
-#encabezado-general{
-    font-size: xx-large; 
-    font-weight: bold;
-    text-align: center;
-}
-
- .menu-izq {
-    width: 25%;
-    float: left;
-  }
-  .principal {
-    width: 75%;
-    float: left;
-  }
-
-
 #foto{
     border:5px solid red;
   
-}
-
-.titulos {
-    font-family: "font-family: 'Emblema One'";
-}
-
-#info-JP{
-    align-items: center;
 }
 
 ul{
@@ -43,3 +19,11 @@ ul{
     background-color: #e0e0d1;
 }
 
+header {
+    text-align: center;
+    color: chartreuse;
+}
+
+#funcion-contacto{
+   text-align: center;
+}

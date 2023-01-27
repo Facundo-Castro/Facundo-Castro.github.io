@@ -17,86 +17,78 @@
   
     
 <div>    
-    <header id="encabezado-general" >
-    <h1>Facundo Castro</h1>
+    <header class="container-fluid">
+        <h1>Facundo Castro</h1>
     </header>
 </div>
     
-<div class="menu-izq">
-    <div id="foto">
-        <img id="foto-cv"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7iR5C7Spwhro-WzA4_JWC-JCvV1TkpbQuQ&usqp=CAU"
-         alt="foto simbolica de un mecanico" width="100%">
-    </div>
+
+<div class="row"> 
+    <div class="col-sm-4">
+        <div id="foto">
+            <img id="foto-cv"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7iR5C7Spwhro-WzA4_JWC-JCvV1TkpbQuQ&usqp=CAU"
+            alt="foto simbolica de un mecanico" width="100%">
+        </div>
 
     
 
-    <div id="info-JP" >
-    <ul>
-        <li>Técnico Mecánico</li>
-        <li>Ubicación: Haedo, Buenos Aires</li>
-        <li>Email: abc@cv.com.ar </li>
-        <li>Teléfono: 011-1234-5678</li>
-    </ul>
-    </div>
-
-
-
-</div>
-
-<div class="principal">
-    <div id="formación">
-        <h2>Formación</h2>
+        <div id="info-JP" >
             <ul>
-                <li>Tecnicatura en mecanica automotor, ITCA, 2015-2016</li>
-                <li>Tecnicatura en inyección electrónica, ITCA, 2017</li>
-                <li>Tecnicatura en inyección Diesel, ITCA 2017</li>
-                <li>Curso de potenciación de motores aspirados, Ingenieria Pellegrini, 2018</li>
-                <li>Curso de potenciación de motores sobrealimentados, Ingenieria Pellegrini, 2018</li>
+                <li>Técnico Mecánico</li>
+                <li>Ubicación: Haedo, Buenos Aires</li>
+                <li>Email: abc@cv.com.ar </li>
+                <li>Teléfono: 011-1234-5678</li>
             </ul>
-    </div>        
-    <div id="experiencia">
-        <h2>Experiencia</h2>
-        <ul>
-            <li>Asesor en inyeccion electronica, Escalada Motorsport, 2018-2023</li>
-            <li>Tecnico Mecanico, taller propio, 2019-2023</li>
-            <li>Mecanica ligera a domicilio, 2020-2023</li>
-        </ul>
-
+        </div>
     </div>
+
+    <div class="col">
+        <div id="formación">
+            <h2>Formación</h2>
+                <ul>
+                    <li>Tecnicatura en mecanica automotor, ITCA, 2015-2016</li>
+                    <li>Tecnicatura en inyección electrónica, ITCA, 2017</li>
+                    <li>Tecnicatura en inyección Diesel, ITCA 2017</li>
+                    <li>Curso de potenciación de motores aspirados, Ingenieria Pellegrini, 2018</li>
+                    <li>Curso de potenciación de motores sobrealimentados, Ingenieria Pellegrini, 2018</li>
+                </ul>
+        </div>        
+        <div id="experiencia">
+            <h2>Experiencia</h2>
+            <ul>
+                <li>Asesor en inyeccion electronica, Escalada Motorsport, 2018-2023</li>
+                <li>Tecnico Mecanico, taller propio, 2019-2023</li>
+                <li>Mecanica ligera a domicilio, 2020-2023</li>
+            </ul>
+        </div>
 
     
-    <div id= "Idiomas" >
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Español, nativo</li>
-            <li>Inglés, B2</div>
+        <div id= "Idiomas" >
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Español, nativo</li>
+                <li>Inglés, B2</li>
+        </div>
+        <div id="funcion-contacto">      
+            <Button id="boton">Comunicarse conmigo</Button>
 
-
-
-
-  
-   
-  
-<div>   
-   
-   <Button id="boton">Comunicarse conmigo</Button>
-
-    <div id="contacto" hidden>
-        <h2 class="titulos">Contacto</h2>
-        <form action="" method="get">
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="Nombre"> <br>
-            <label for="Apellido">Apellido:</label>
-            <input type="text" name="Apellido"> <br>
-            <label for="Empresa">Empresa:</label>
-            <input type="text" name="Empresa"><br>
-            <label for="Email">Correo electrónico:</label>
-            <input type="email" name="Email"><br>
-            <input type="submit" value="Enviar">
-        </form>
-
-    </div>
-</div>
+            <div id="contacto" hidden>
+                <h2 class="titulos">Contacto</h2>
+                    <form action="" method="get">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="Nombre"> <br>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" name="Apellido"> <br>
+                    <label for="Empresa">Empresa:</label>
+                    <input type="text" name="Empresa"><br>
+                    <label for="Email">Correo electrónico:</label>
+                    <input type="email" name="Email"><br>
+                    <input type="submit" value="Enviar">
+                    </form>
+            </div>
+        </div>
+    </div> 
+</div>       
 <script src="cv.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
