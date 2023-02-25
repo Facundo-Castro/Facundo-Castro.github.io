@@ -13,7 +13,7 @@
    
     
 </head>
-<body>
+<body id="fondo">
   
     
 <div>    
@@ -24,7 +24,7 @@
     
 
 <div class="row"> 
-    <div class="col-sm-4">
+    <div class="col-sm-4" id="col-izq">
         <div id="foto">
             <img id="foto-cv"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7iR5C7Spwhro-WzA4_JWC-JCvV1TkpbQuQ&usqp=CAU"
             alt="foto simbolica de un mecanico" width="100%">
@@ -32,7 +32,7 @@
 
     
 
-        <div id="info-JP" >
+        <div id="info-FC" >
             <ul>
                 <li>Técnico Mecánico</li>
                 <li>Ubicación: Haedo, Buenos Aires</li>
@@ -42,14 +42,14 @@
         </div>
     </div>
 
-    <div class="col">
+    <div class="col" id="col-der">
         <div id="formación">
             <h2>Formación</h2>
                 <ul>
-                    <li>Tecnicatura en mecánica automotor, ITCA, 2015-2016</li>
+                    <li>Tecnicatura en mecánica automotor, <a href="https://www.itca.com.ar/">ITCA</a>, 2015-2016</li>
                     <li>Tecnicatura en inyección electrónica, ITCA, 2017</li>
                     <li>Tecnicatura en inyección Diesel, ITCA 2017</li>
-                    <li>Curso de potenciación de motores aspirados, Ingeniería Pellegrini, 2018</li>
+                    <li>Curso de potenciación de motores aspirados, <a href="http://www.pellegriniracing.com.ar/">Ingeniería Pellegrini</a>, 2018</li>
                     <li>Curso de potenciación de motores sobrealimentados, Ingeniería Pellegrini, 2018</li>
                 </ul>
         </div>        
@@ -73,18 +73,17 @@
             <Button id="boton">Comunicarse conmigo</Button>
 
             <div id="contacto" hidden>
-                <h2 class="titulos">Contacto</h2>
-                    <form action="" method="get">
-                    <label for="Nombre">Nombre:</label>
-                    <input type="text" name="Nombre"> <br>
-                    <label for="Apellido">Apellido:</label>
-                    <input type="text" name="Apellido"> <br>
-                    <label for="Empresa">Empresa:</label>
-                    <input type="text" name="Empresa"><br>
-                    <label for="Email">Correo electrónico:</label>
-                    <input type="email" name="Email"><br>
-                    <input type="submit" value="Enviar">
-                    </form>
+                <form action="" method="get"> <br>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre"> <br><br>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" name="Apellido"> <br><br>
+                <label for="Empresa">Empresa:</label>
+                <input type="text" name="Empresa"><br><br>
+                <label for="Email">Correo electrónico:</label>
+                <input type="email" name="Email"><br><br>
+                <input type="submit" value="Enviar">
+                </form>
             </div>
         </div>
     </div> 
