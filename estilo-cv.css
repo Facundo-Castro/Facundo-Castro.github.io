@@ -1,29 +1,27 @@
 
-* {
+*   {
     box-sizing: border-box;
-  }
-
+}
 
 header  {
     text-align: center;
-    background-color: rgb(197, 187, 187);
+    background-color: rgb(122 131 199);
+    padding: 12px;
 }
 
-#fondo    {
-    background-color: rgb(197, 187, 187);
-}  
+#título {
+    margin-bottom: 0px;
+}
 
 #foto   {
-    border:5px solid red;
-    
+    border:5px solid red; 
 }
-
 
 h2  {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-decoration: underline;
-
+    color: white;
 }
 
 ul  {
@@ -32,8 +30,9 @@ ul  {
 
 #info-FC    {
     text-align: center;
+    line-height: 1,5;
+    font-size: large;
 }
-
 
 #funcion-contacto   {
     text-align-last: center;
@@ -44,11 +43,17 @@ label   {
 }
 
 #col-izq    {
-    background-color: rgb(197, 187, 187);
-    border: 0%;
-    margin: 0%;
+    background-color: rgb(122 131 199);
+    margin-top: 0%;
+    padding: 0%;
+    font-weight: bold;
 }
 
 #col-der    {
-    background-color:   rgb(207, 173, 100);
+    background-color:   rgb(19, 6, 63);
+    padding-top: 12px; 
+}
+
+.blanco {
+    color: white;
 }
