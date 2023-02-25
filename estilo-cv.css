@@ -3,28 +3,52 @@
     box-sizing: border-box;
   }
 
-#foto{
-    border:5px solid red;
-    box-sizing: border-box;
+
+header  {
+    text-align: center;
+    background-color: rgb(197, 187, 187);
 }
 
-ul{
+#fondo    {
+    background-color: rgb(197, 187, 187);
+}  
+
+#foto   {
+    border:5px solid red;
+    
+}
+
+
+h2  {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+ul  {
     list-style: none;
 }
 
-#formación{
-    background-color: aqua;
-}
-#experiencia{
-    background-color: #e0e0d1;
-}
-
-header {
+#info-FC    {
     text-align: center;
-    color: chartreuse;
-
 }
 
-#funcion-contacto{
-   text-align: center;
+
+#funcion-contacto   {
+    text-align-last: center;
+}
+
+label   {
+    text-decoration: underline;
+}
+
+#col-izq    {
+    background-color: rgb(197, 187, 187);
+    border: 0%;
+    margin: 0%;
+}
+
+#col-der    {
+    background-color:   rgb(207, 173, 100);
 }
