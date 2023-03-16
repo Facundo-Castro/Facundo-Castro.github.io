@@ -16,10 +16,8 @@
 <body>
 
 
-<div>    
-    <header class="container-fluid">
+<div id="encabezado">    
         <h1 id="título">Facundo Castro</h1>
-    </header>
 </div>
     
 
@@ -76,15 +74,55 @@
 
         <div>
             <h2>Habilidades</h2>
-            
+            <ul>
+                <li>Manejo de herramientas manuales, generales y específicas</li>
+                <li>Manejo de herramientas electrónicas</li>
+                <li>Uso, manejo e interpretación de scanner automotriz</li>
+                <li>Interpretación de planos y diagramas eléctricos</li>
+                <li>Uso y manejo de software específico para taller</li>
+                <li>Uso e interpretación de herramientas de medición y tolerancias</li>
+                <li>Uso e interpretación de osciloscopio</li>
+            </ul>    
         </div>
 
 
         <div>
             <h2>Acerca de mi</h2>
-            <p>Desarrollo esta actividad como segundo empleo, a modo de hobby. Sin embargo, soy exigente en la calidad de mis trabajos. Me dedico mayormente al mantenimiento preventivo, desarrollo mis actividades en mi propio taller. Investigo y me formo de manera independiente y constante.</p>
+            <p>Desarrollo esta actividad como segundo empleo, a modo de hobby. Soy exigente en la calidad de mis trabajos, y la prolijidad de los mismos junto con los procesos. Me dedico mayormente al mantenimiento preventivo, desarrollo mis actividades en mi propio taller. Investigo y me formo de manera independiente y constante.</p>
         </div>
 
+
+        <h2>Algunos de mis trabajos</h2>   
+        <div class="fotos">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="WhatsApp Image 2023-03-15 at 13.30.11 (1).jpeg" style="width:100%" alt="Arbol de levas de un Fiat Uno 2014">
+                <div class="text">Distribucion Fiat</div>
+              </div>
+              
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="20150129_073759.jpg" style="width:100%" alt="Trabajo de limpieza de valvula EGR">
+                <div class="text">EGR Kangoo</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="20170225_113821.jpg" style="width:100%" alt="Trabajos en una Renault Kangoo">
+                <div class="text">Distribucion Kangoo</div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
 
         <div id="funcion-contacto">      
             <Button id="boton">Comunicarse conmigo</Button>
