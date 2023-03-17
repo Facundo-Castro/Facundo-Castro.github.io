@@ -4,30 +4,10 @@
    
 }
 
-
-h1{
+h1  {
     text-align: center;
     background-color: rgb(122 131 199); ;
    
-}
-
-
-#título {
-    margin-bottom: 0px;
- 
-}
-
-
-#encabezado {
-    border-right: 0px;
-    border-bottom: 0px;
-    margin-right: -12px;
-    top: 0;
-}
-
-
-#foto   {
-    border:5px solid red; 
 }
 
 h2  {
@@ -35,64 +15,40 @@ h2  {
     font-style: italic;
     text-decoration: underline;
     color: white;
+
 }
 
-ul  {
+p {
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+ul {
     list-style: none;
 }
 
-#info-FC    {
-    text-align: center;
-    line-height: 1,5;
-    font-size: large;
-}
-
-#funcion-contacto   {
-    text-align-last: center;
-}
-
-label   {
+label {
     text-decoration: underline;
-}
-
-#col-izq    {
-    background-color: rgb(122 131 199);
-    margin-top: 0%;
-    padding-left: 12px;
-    padding-right: 0px;
-    font-weight: bold;
-  }
-
-#col-der    {
-    background-color:   rgb(19, 6, 63);
-    padding-top: 12px; 
-   
 }
 
 .blanco {
     color: white;
 }
 
-p   {
-    padding-left: 32px;
-    padding-right: 32px;
-
-}
-
-.fotos {
+.imágenes {
     max-width: 70%;
     position: relative;
     margin: auto;
-   
-  }
+ 
+}
 
-
-  .mySlides {
+.mySlides {
     display: none;
-    
-  }
+  
+}
 
-  .prev, .next {
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -106,13 +62,13 @@ p   {
     border-radius: 0 3px 3px 0;
     user-select: none;
 
-  }
+}
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 
-  }
+}
 
 .dot {
     cursor: pointer;
@@ -124,25 +80,68 @@ p   {
     display: inline-block;
     transition: background-color 0.6s ease;
 
-  }
-  
+}
+
 .active, .dot:hover {
     background-color: #717171;
 
-  }
+}
 
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
 
-  }
-  
+}
+
+.text {
+    text-align: center;
+}
+
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 
-  }
-.text{
+}
+
+#encabezado {
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-right: -12px;
+  
+}
+
+#título {
+  margin-bottom: 0px;
+
+}
+
+#foto {
+    border:5px solid red; 
+}
+
+#info-FC  {
     text-align: center;
+    line-height: 1,5;
+    font-size: large;
+}
+
+#funcion-contacto   {
+    text-align-last: center;
+    
+}
+
+#col-izq    {
+    background-color: rgb(122 131 199);
+    margin-top: 0%;
+    padding-left: 12px;
+    padding-right: 0px;
+    font-weight: bold;
+  }
+
+#col-der    {
+    background-color:   rgb(19, 6, 63);
+    padding-top: 12px; 
+    padding-bottom: 12px;
+   
 }
